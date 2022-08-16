@@ -6,7 +6,6 @@
     flex-wrap: wrap;
     justify-content: center;
     list-style: none;
-    width: 120px;
     
     /* allows the nav bar to stay to the left of the main div*/
     opacity: 1;
@@ -53,6 +52,10 @@ span {
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
+}
+
+.sidenav a {
+  height: 30px;
 }
 
 /* When you mouse over the navigation links, change their color */
