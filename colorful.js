@@ -1,41 +1,40 @@
 
-let recipe_link = [
-      colorRed0: "#ff5247",
-      colorRed100: "#e60023",
-      colorGray0: "#ffffff",
-      colorGray50: "#ffffff",
-      colorGray100: "#efefef",
-      colorGray150: "#dddddd",
-      colorGray200: "#767676",
-      colorGray300: "#111111",
-      colorGray400: "#000000",
-      green: "#0fa573",
-      pine: "#0a6955",
-      olive: "#364a4c",
-      blue: "#0074e8",
-      navy: "#004b91",
-      midnight: "#133a5e",
-      purple: "#b469eb",
-      orchid: "#8046a5",
-      eggplant: "#5b2677",
-      maroon: "#6e0f3c",
-      watermelon: "#f13535",
-      orange: "#e3780c",
-      colorGray0Hovered: "#f0f0f0",
-      colorGray100Hovered: "#e2e2e2",
-      colorGray150Hovered: "#d0d0d0",
-      colorGray200Hovered: "#878787",
-      colorRed100Hovered: "#ad081b",
-      blueHovered: "#4a8ad4",
-      colorGray0Active: "#e0e0e0",
-      colorGray100Active: "#dadada",
-      colorGray200Active: "#828282",
-      colorRed100Active: "#a3081a",
-      blueActive: "#4a85c9",
-      colorTransparentDarkGray: "rgb(51 51 51/0.8)",
-      colorTransparentWhite: "rgb(255 255 255/0.8)",
-      colorTransparentGray60: "rgb(0 0 0/0.06)",
-      colorTransparentGray100: "rgb(0 0 0/0.1)",
-      colorTransparentGray500: "rgb(0 0 0/0.1)",
-      colorTransparentGray800: "rgb(0 0 0/0.8)",
-]
+
+let colorRed0= "#ff5247";
+let colorRed100= "#e60023";
+let colorGray0= "#ffffff";
+let colorGray50= "#ffffff";
+let colorGray100= "#efefef";
+let colorGray150= "#dddddd";
+let colorGray200= "#767676";
+let colorGray300= "#111111";
+let colorGray400= "#000000";
+let green= "#0fa573";
+let pine= "#0a6955";
+let olive= "#364a4c";
+let blue= "#0074e8";
+let navy= "#004b91";
+let midnight= "#133a5e";
+let purple= "#b469eb";
+let orchid= "#8046a5";
+let eggplant= "#5b2677";
+let maroon= "#6e0f3c";
+let watermelon= "#f13535";
+let orange= "#e3780c";
+let colorGray0Hovered= "#f0f0f0";
+let colorGray100Hovered= "#e2e2e2";
+let colorGray150Hovered= "#d0d0d0";
+let colorGray200Hovered= "#878787";
+let colorRed100Hovered= "#ad081b";
+let blueHovered= "#4a8ad4";
+let colorGray0Active= "#e0e0e0";
+let colorGray100Active= "#dadada";
+let colorGray200Active= "#828282";
+let colorRed100Active= "#a3081a";
+let blueActive= "#4a85c9";
+let colorTransparentDarkGray= "rgb(51 51 51/0.8)";
+let colorTransparentWhite= "rgb(255 255 255/0.8)";
+let colorTransparentGray60= "rgb(0 0 0/0.06)";
+let colorTransparentGray100= "rgb(0 0 0/0.1)";
+let colorTransparentGray500= "rgb(0 0 0/0.1)";
+let colorTransparentGray800= "rgb(0 0 0/0.8)";
