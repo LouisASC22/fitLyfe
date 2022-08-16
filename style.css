@@ -81,3 +81,16 @@ span {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
+
+.dietImg {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+    font-family: Helvetica,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",メイリオ,Meiryo,"ＭＳ Ｐゴシック",Arial,sans-serif,"Segoe UI Emoji","Segoe UI Symbol";
+    color: rgb(33, 25, 34);
+    font-size: 12px;
+    height: 100%;
+}
