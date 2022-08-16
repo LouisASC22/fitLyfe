@@ -21,4 +21,12 @@ placeMarker({ lat: 40.0379, lng: -76.3055 });
     map: map,
   });
   } 
+
+declare global {
+  interface Window {
+    initMap: () => void;
+  }
+}
+
 window.initMap = initMap;
+
