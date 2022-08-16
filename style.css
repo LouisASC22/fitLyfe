@@ -77,9 +77,10 @@ span {
 }
 
 /* On phone screen, make bars as wide as the screen */
-@media screen and (max-height: 450px) {
+@media screen and (max-width: 450px) {
   .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+  .sidenav {width: 100%;}
+  .sidenav a {font-size: 25px;}
 }
 
 .dietImg {
