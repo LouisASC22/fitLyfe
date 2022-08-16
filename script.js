@@ -1,3 +1,7 @@
+let Fitlyfe
+
+
+
 /* when the cursor goes over the nav, it opens */
 function openNav() {
   document.getElementById("nav_bar").style.width = "250px";
