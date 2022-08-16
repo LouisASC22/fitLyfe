@@ -1,4 +1,4 @@
-let Fitlyfe
+let Fitlyfe.png = img
 
 
 
