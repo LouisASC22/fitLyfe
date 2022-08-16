@@ -6,6 +6,7 @@
     flex-wrap: wrap;
     justify-content: center;
     list-style: none;
+    width: 120px;
     
     /* allows the nav bar to stay to the left of the main div*/
     opacity: 1;
@@ -52,10 +53,6 @@ span {
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
-}
-
-.sidenav a {
-  height: 30px;
 }
 
 /* When you mouse over the navigation links, change their color */
@@ -172,4 +169,12 @@ span {
     cursor: pointer;
     background-color: #1e1e1e;
     color: #ffffff;
+}
+
+/* Set the size of the div element that contains the map */
+#map {
+  height: 400px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
 }
