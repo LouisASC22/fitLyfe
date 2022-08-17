@@ -21,6 +21,10 @@
   
 }
 
+h1 {
+  font-size: 40px;
+}
+
 /* makes the nav items fancy looking*/
 .nav_item {
     justify-content: center;
@@ -228,6 +232,7 @@ background: blue;
   .sidenav a {font-size: 25px;}
   h1 {font-size: 80px;}
   div div span {font-size: 20px;}
+  .card {flex-direction: column;}
 }
 
 /* On phone screen, make bars as wide as the screen */
@@ -237,5 +242,4 @@ background: blue;
   .sidenav a {font-size: 40px;}
   h1 {font-size: 120px;}
   div div span {font-size: 30px;}
-  .card {flex-direction: column;}
 }
