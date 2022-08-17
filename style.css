@@ -236,5 +236,6 @@ background: blue;
   .navDiv{width: 200%;}
   .sidenav a {font-size: 40px;}
   h1 {font-size: 120px;}
-  div div span {font-size: 25px;}
+  div div span {font-size: 30px;}
+  .card {flex-direction: column;}
 }
