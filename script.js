@@ -1,4 +1,4 @@
-let Fitlyfe.png = img
+let fitImg = "https://cdn.glitch.global/6afc4efa-71e4-4ea1-b370-4279fc8fce5d/fitLyfe.png?v=1660663056696";
 
 
 
@@ -20,4 +20,19 @@ function closeNav() {
   document.querySelector("a").style.fontSize = "16px";
   document.querySelector("a").style.color = "currentColor";
   document.querySelector("a").style.display = "inline-block";
+}
+
+function search_animal() {
+    let input = document.getElementById('searchbar').value
+    input=input.toLowerCase();
+    let x = document.getElementsByClassName('underImg');
+      
+    for (let i = 0; i < x.length; i++) { 
+        if (!x[i].innerHTML.toLowerCase().includes(input)) {
+            x[i].style.display="none";
+        }
+        else {
+            x[i].style.display="list-item";                 
+        }
+    }
 }
