@@ -76,13 +76,6 @@ span {
   padding: 20px;
 }
 
-/* On phone screen, make bars as wide as the screen */
-@media screen and (max-width: 450px) {
-  .sidenav {padding-top: 15px;}
-  .navDiv{width: 100%;}
-  .sidenav a {font-size: 25px;}
-}
-
 .dietImg {
     display: flex;
     max-width: 100%;
@@ -183,7 +176,7 @@ span {
   display: flex;
   flex-direction: column;
   padding: 7%;
-  margin: 7%;
+  margin: 7% 7% 7% 0%;
 }
 
 .card {
@@ -217,7 +210,7 @@ background: blue;
      width: 95%;
    }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 600px) {
   .topnav a, .topnav input[type=text] {
     float: none;
     display: block;
@@ -229,4 +222,16 @@ background: blue;
   .topnav input[type=text] {
     border: 1px solid #cccccc;
   }
+  
+  .sidenav {padding-top: 15px;}
+  .navDiv{width: 100%;}
+  .sidenav a {font-size: 25px;}
+}
+
+/* On phone screen, make bars as wide as the screen */
+@media screen and (max-width: 450px) {
+  .sidenav {padding-top: 0px;}
+  .navDiv{width: 200%;}
+  .sidenav a {font-size: 40px;}
+  h1 {font-size: 80px;}
 }
