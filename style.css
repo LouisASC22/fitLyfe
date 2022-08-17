@@ -86,7 +86,7 @@ span {
 .dietImg {
     display: flex;
     max-width: 100%;
-    width: auto;
+    width: 200px;
     height: auto;
     vertical-align: middle;
     border: 0;
@@ -181,6 +181,9 @@ span {
 
 .cardContainer {
   display: flex;
+  flex-direction: column;
+  padding: 40px;
+  margin: 40px;
 }
 
 .card {
