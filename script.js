@@ -36,3 +36,24 @@ function search_animal() {
         }
     }
 }
+
+function onParse() {
+  let ingredientInput = document.getElementByClassName("ingredient_input");
+  
+  let parse_term = ingredientInput.term;
+      
+  var request = new XMLHttpRequest()
+
+// Open a new connection, using the GET request on the URL endpoint
+request.open('GET', 'www.themealdb.com/api/json/v1/1/search.php?s=' + parse_term, true)
+
+request.onload = function () {
+  // Begin accessing JSON data here
+}
+
+// Send request
+let results = request.send()
+  
+  return results
+}
+
