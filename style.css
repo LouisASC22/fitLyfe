@@ -178,3 +178,11 @@ span {
   width: 100%;
   /* The width is the width of the web page */
 }
+
+.cardContainer {
+  display: flex;
+}
+
+.card {
+  display: flex;
+}
