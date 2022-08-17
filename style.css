@@ -226,6 +226,8 @@ background: blue;
   .sidenav {padding-top: 15px;}
   .navDiv{width: 100%;}
   .sidenav a {font-size: 25px;}
+  h1 {font-size: 80px;}
+  div div span {font-size: 20px;}
 }
 
 /* On phone screen, make bars as wide as the screen */
@@ -233,5 +235,6 @@ background: blue;
   .sidenav {padding-top: 0px;}
   .navDiv{width: 200%;}
   .sidenav a {font-size: 40px;}
-  h1 {font-size: 80px;}
+  h1 {font-size: 120px;}
+  div div span {font-size: 25px;}
 }
